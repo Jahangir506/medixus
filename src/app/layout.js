@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <FristNavBar />
+        <div className="bg-[#C3D7E7]">
+          <FristNavBar />
+        </div>
         <Navbar />
         {children}
       </body>
