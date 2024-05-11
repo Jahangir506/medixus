@@ -11,11 +11,11 @@ const AboutUs = () => {
           display: "flex",
           justifyContent: "space-between",
         }}
-        className=""
+        className="md:mt-12 lg:mt-48 max-w-[1470px] mx-auto px-4"
       >
         <Box className='w-1/2 mt-5'>
           <Typography gutterBottom>About Us</Typography>
-          <Typography variant="h3" gutterBottom>
+          <Typography variant="h2" gutterBottom>
             Clinic with <span className="text-[#00BCD1]">innovative</span>{" "}
             <br /> approach to treatment
           </Typography>

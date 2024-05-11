@@ -11,7 +11,7 @@ const FristNavBar = () => {
     <>
           <Box sx={{ display: "flex", justifyContent: "space-between" }} className="max-w-[1550px] hidden lg:flex py-1.5 mx-auto">
               <Box sx={{display: 'flex', alignItems: 'center'}}>
-                <p><MailIcon/>md.jahangir.alam9649@gmail.com</p>
+                <p><MailIcon/> md.jahangir.alam9649@gmail.com</p>
                 <p className="ml-2"><LocalPhoneIcon/>+8801615703506</p>
               </Box>
 
